@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riassunto Documenti Auto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #505050;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: 3px solid #e8491d;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+            padding: 10px;
+        }
+        nav {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background-color: #e8491d;
+        }
+        section {
+            padding: 20px;
+            background-color: white;
+            margin-bottom: 20px;
+        }
+        section h2 {
+            color: #e8491d;
+            border-bottom: 2px solid #e8491d;
+            padding-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #333;
+            color: white;
+            margin-top: 30px;
+        }
+        .warning {
+            color: red;
+            font-weight: bold;
+        }
+        .tabella-tesla {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .tabella-tesla th, .tabella-tesla td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .tabella-tesla th {
+            background-color: #f2f2f2;
+        }
+        .tabella-tesla caption {
+            caption-side: top;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Riassunto Documenti Auto</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#ritorno-termico">Ritorno al Termico</a></li>
+                <li><a href="#flop-elettriche">Flop Elettriche</a></li>
+                <li><a href="#limiti-velocita">Limiti Velocità</a></li>
+                <li><a href="#truffa-tesla">Truffa Tesla</a></li>
+                <li><a href="#curiosita-elettriche">Curiosità Elettriche</a></li>
+                <li><a href="#problemi-tesla">Problemi Tesla Freddo</a></li>
+                <li><a href="#globalizzazione">Globalizzazione e Auto Elettriche</a></li>
+                <li><a href="#analisi-auto-green">Analisi Auto Green</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="ritorno-termico">
+        <div class="container">
+            <h2>Ritorno al Motore Termico</h2>
+            <img src="data:image/jpeg;base64,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" alt="Motore termico">
+            <p>
+                Secondo un rapporto di <a href="https://it.wikipedia.org/wiki/Deloitte">Deloitte</a>, in Italia c'è un ritorno di interesse verso i motori termici tradizionali a causa degli alti costi delle auto elettriche.
+                Nel 2023 le preferenze per i motori termici erano al 19%, mentre nel 2025 sono salite al 32%.
+            </p>
+        </div>
+    </section>
+
+    <section id="flop-elettriche">
+        <div class="container">
+            <h2>Il Flop delle Auto Elettriche</h2>
+            <img src="https://images.jifo.co/117893461_1669920567423.jpg" alt="Auto elettrica">
+            <p>
+                Le auto elettriche in Italia hanno una quota di mercato molto bassa (4%). Nel 2022 le vendite di auto elettriche sono crollate del 27%,
+                mentre il mercato delle auto convenzionali è cresciuto del 21%. Qua sopra possiamo ritrovare un un immagine con la percentuale delle auto elettriche per singola regione. Ciò lo conferma anche il giornalista <a href="https://it.wikipedia.org/wiki/Nicola_Porro">Nicola Porro</a> nel suo <a href="https://www.nicolaporro.it/economia-finanza/auto-elettriche-flop-crescono-gli-italiani-pronti-a-comperare-benzina-e-diesel/">giornale</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="limiti-velocita">
+        <div class="container">
+            <h2>Limiti di Velocità a 30 km/h</h2>
+            <p>
+                L'imposizione di limiti di velocità a <a href="https://it.wikipedia.org/wiki/Zona_30#In_Italia">30 km/h</a> è controversa. Alcuni studi suggeriscono che ridurre i limiti di velocità può aumentare
+                l'inquinamento e non avere effetti significativi sulla riduzione degli incidenti. Città come Bologna e Roma stanno implementando questi limiti.
+            </p>
+        </div>
+    </section>
+
+    <section id="truffa-tesla">
+        <div class="container">
+            <h2>La "Truffa" delle Batterie Tesla</h2>
+            <p>
+                La produzione delle batterie delle Tesla richiede l'estrazione di grandi quantità di minerali, con un impatto ambientale significativo.
+                Ad esempio, per produrre una batteria sono necessarie 12 tonnellate di roccia per il litio e 5 tonnellate di minerali di cobalto.
+            </p>
+            <table class="tabella-tesla">
+                <caption>Materiali necessari per la batteria di una Tesla</caption>
+                <thead>
+                    <tr>
+                        <th>Materiale</th>
+                        <th>Quantità</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Litio</td>
+                        <td>12 kg</td>
+                    </tr>
+                    <tr>
+                        <td>Nichel</td>
+                        <td>13.6 kg</td>
+                    </tr>
+                    <tr>
+                        <td>Manganese</td>
+                        <td>22 kg</td>
+                    </tr>
+                    <tr>
+                        <td>Cobalto</td>
+                        <td>6.8 kg</td>
+                    </tr>
+                    <tr>
+                        <td>Rame</td>
+                        <td>100 kg</td>
+                    </tr>
+                    <tr>
+                        <td>Alluminio, Acciaio e Plastica</td>
+                        <td>200 kg</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="curiosita-elettriche">
+        <div class="container">
+            <h2>Curiosità sull'Auto Elettrica</h2>
+            <img src="Screenshot 2025-03-31 005229.png" alt="Auto elettrica storica">
+            <p>
+                L'auto elettrica non è un'invenzione recente. In Italia, già nel 1891, Giuseppe Carli e Francesco Boggio realizzarono la prima auto elettrica.
+                Alessandro Cruto, l'inventore della lampadina a incandescenza, fondò la Società Dora nel 1898 e realizzò prototipi di auto elettriche nel 1906.
+            </p>
+        </div>
+    </section>
+
+    <section id="problemi-tesla">
+        <div class="container">
+            <h2>Problemi delle Tesla con il Freddo</h2>
+            <div class="video-container">
+                <video width="640" height="480" controls>
+                    <source src="Macchina Tesla non si apre perchè troppo freddo.mp4" type="video/mp4">
+                    Il tuo browser non supporta il tag video.
+                </video>
+            </div>
+            <p>
+                Le auto Tesla possono avere problemi in condizioni di freddo estremo. Alcuni proprietari hanno segnalato difficoltà nell'aprire le portiere
+                e nel ricaricare le auto a basse temperature.
+            </p>
+        </div>
+    </section>
+
+    <section id="globalizzazione">
+        <div class="container">
+            <h2>Globalizzazione e Auto Elettriche</h2>
+            <p>
+                La globalizzazione e il concetto di "società liquida" influenzano anche il settore automobilistico, con un focus crescente sulle auto elettriche
+                e le sfide legate alla loro adozione.
+            </p>
+        </div>
+    </section>
+
+    <section id="analisi-auto-green">
+        <div class="container">
+            <h2>Analisi delle Auto Green</h2>
+            <p>
+                Un'analisi critica delle auto green rivela diverse problematiche, tra cui:
+                <ul>
+                    <li>Il ritorno di interesse per i motori termici a causa dei costi elevati delle auto elettriche.</li>
+                    <li>I problemi legati alle batterie al litio e al loro smaltimento.</li>
+                    <li>La percezione che la narrativa dell'elettrico sia fuorviante.</li>
+                    <li>Le difficoltà operative delle auto elettriche in climi freddi.</li>
+                    <li>Le questioni relative all'inquinamento generato dalla produzione e dal trasporto delle auto elettriche.</li>
+                </ul>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Pagina fatta da Delisi, Sanseverino, Passalacqua, Lembo Luscari, Ricciardo e Bruno</p>
+        </div>
+    </footer>
+
+</body>
+</html>
